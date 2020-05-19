@@ -33,15 +33,17 @@ defmodule FunWithFlagsBugPhx.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.3.3"},
-      {:phoenix_pubsub, "~> 1.0"},
-      {:phoenix_ecto, "~> 3.2"},
-      {:postgrex, ">= 0.0.0"},
-      {:phoenix_html, "~> 2.10"},
+      {:phoenix, "~> 1.5"},
+      {:phoenix_pubsub, "~> 2.0"},
+      {:phoenix_ecto, "~> 4.1"},
+      {:postgrex, "~> 0.15.0"},
+      {:phoenix_html, "~> 2.13"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
-      {:fun_with_flags, "~> 1.0.0"},
+      {:fun_with_flags, "~> 1.5.1"},
+      {:poison, "~> 3.0"},
+      {:ecto_sql, "~> 3.0"},
     ]
   end
 

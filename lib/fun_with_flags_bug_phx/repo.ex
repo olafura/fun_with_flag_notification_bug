@@ -1,5 +1,5 @@
 defmodule FunWithFlagsBugPhx.Repo do
-  use Ecto.Repo, otp_app: :fun_with_flags_bug_phx
+  use Ecto.Repo, otp_app: :fun_with_flags_bug_phx, adapter: Ecto.Adapters.Postgres
 
   @doc """
   Dynamically loads the repository url from the
